@@ -31,11 +31,21 @@ class ForgotPasswordPage extends StatelessWidget {
 
             // Teks deskripsi
             const Text(
-              'Pesan\nMasukan email Anda dan tunggu kode etik akan dikirimkan.',
-              textAlign: TextAlign.center,
+              'Pesan',
+              textAlign: TextAlign.start,
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            const SizedBox(height: 0),
+
+            const Text(
+              'Masukan email Anda dan tunggu kode etik akan dikirimkan.',
+              textAlign: TextAlign.start,
               style: TextStyle(
                 fontSize: 16,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w100,
               ),
             ),
             const SizedBox(height: 40),
