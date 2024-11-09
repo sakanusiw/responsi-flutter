@@ -45,7 +45,7 @@ class ForgotPasswordPage extends StatelessWidget {
               textAlign: TextAlign.start,
               style: TextStyle(
                 fontSize: 16,
-                fontWeight: FontWeight.w100,
+                fontWeight: FontWeight.w500,
               ),
             ),
             const SizedBox(height: 40),
